@@ -1,0 +1,21 @@
+----------------------------------------------------------Monitoring in DevOps----------------------------------------------------------------------------------
+
+1) # Component that you going to monitor :- website and server 
+     Like website is up or not , reachable or not and ssl certs installed or not. 
+     Like server node metrics- cpu usage, ram usage, disk usage. 
+
+
+2) # Prometheus perfomed actual monitoring and received metrics result and stored at database known as TSDB (Time series database). 
+
+3) # Exporter collect metrics and send to prometheus. 
+
+   # Node exporter for node metrics. , Node exporter port :- 9100 
+
+   # Backbox exporter for website metrics. 
+
+4) # Grafana is visualation tool to show data stored in prometheus database.
+
+5) # Practical approach :- 
+     First ec2 instance :- install node exporter.
+     Second ec2 instance :-install prometheus and black box exporter. 
+
